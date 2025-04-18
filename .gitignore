@@ -1,8 +1,21 @@
 .DS_Store
 /.build
 /Packages
+/*.xcodeproj
 xcuserdata/
 DerivedData/
-.swiftpm/configuration/registries.json
+.swiftpm/config/registries.json
 .swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
 .netrc
+
+# Certificate files
+*.cer
+*.key
+*.csr
+*.srl
+*.pem
+*.p12
+*.pfx
+
+# Keep test certificate generation script
+!test-certs/generate-certs.sh
